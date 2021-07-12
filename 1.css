@@ -1,0 +1,874 @@
+/*MAIN PAGE*/
+/*Menu Bars*/
+.bar1, .bar2, .bar3{width:4px;height:4px;background-color: rgb(255,255,255);margin:4px 0px;border-radius: 10px;}
+.bar4, .bar5, .bar6{width:4px;height:4px;background-color: rgba(255,255,255);margin:4px 0px;border-radius: 10px;}
+.bar7, .bar8, .bar9{width:4px;height:4px;background-color: rgba(255,255,255);margin:4px 0px;border-radius: 10px;}
+.body_theeco{ margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    height: auto;
+ }
+ 
+.container, .container1, .container2, .container3{float: right;z-index: 1;}
+#h, #hh, #hhh, #hhhh, #hhhhh, #login_theeco{display: inline-block; font-family: cursive, "Times New Roman";}
+.container_1{
+	position: relative;
+	text-align: center;
+	padding-top: 0;
+	margin: 0 auto;
+	padding: 0;
+	/*position: fixed;*/
+}
+#h{
+	position: fixed;
+	top: 15px;
+	left: 16px;
+	letter-spacing: 3px;
+	z-index: 1;
+}
+#hh{
+	position: fixed;
+	top: 15px;
+	left: 480px;
+	z-index: 1;
+}
+#hhh{
+	position: fixed;
+	top:15px;
+	left: 600px;
+	z-index: 1;
+}
+#hhhh{position: fixed;
+top: 15px;
+left: 720px;
+z-index: 1;}
+ 
+#hhhhh{position: fixed;
+top: 15px;
+left: 840px;
+z-index: 1;}
+
+#login_theeco{
+	position: fixed;
+    top: 15px;
+    left: 1080px;
+    z-index: 1;
+}
+.text-blockonimage{
+	position: absolute;
+	top: 515px;
+	left: 500px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#overview_onimage{
+	position: relative;
+    top:10px;
+    left:20px;}
+
+#register_onimage{
+    position: relative;
+	border-radius: 100px;
+	width: 200px;
+	background-color: rgba(30,30,30,0);
+	color: white;
+	font-family: cursive;
+	padding: 12px;
+	cursor: pointer;
+	border: 2px solid #e7e7e7;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 3px;
+	border-right-width: 3px;
+	transition-duration: 1s;
+    transition-timing-function: step-start;
+}
+#overview_onimage{
+    position: relative;
+	border-radius: 100px;
+	width: 200px;
+	background-color: rgba(255,255,255);
+	color: black;
+	font-family: cursive;
+	padding: 12px;
+	cursor: pointer;
+	border: 2px solid #e7e7e7;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 3px;
+	border-right-width: 3px;
+	transition-duration: 1s;
+    transition-timing-function: step-start;
+}
+/*#register_onimage:hover{color: rgb(255,255,255);
+background-color: rgba(30,30,30,0);
+border-color: white;
+font-size: 80%;
+}
+#overview_onimage:hover{color: rgb(255,255,255);
+background-color: rgba(30,30,30,0);
+font-size: 80%;
+border-color: white;
+}*/
+#loginpage, #theecohome, #class9, #class10, #class11, #class12{text-decoration: none;color: rgb(255, 255, 255);}
+#loginpage:hover{color: rgb(192,192,192);}
+#theecohome:hover{color: rgb(192,192,192);}
+#class9:hover{color: rgb(192,192,192);}
+#class10:hover{color: rgb(192,192,192);}
+#class11:hover{color: rgb(192,192,192);}
+#class12:hover{color: rgb(192,192,192);}
+.container{
+	position: fixed;
+	top: 15px;
+	left: 1330px;
+	cursor: pointer;
+}
+.container1{
+	position: fixed;
+	top: 15px;
+	right:20px;
+	cursor: pointer;
+}
+.container2{
+	position: fixed;
+	top: 15px;
+	right: 28px;
+	cursor: pointer;
+}
+.container3{
+	position: fixed;
+	top: 15px;
+	right: 36px;
+	cursor: pointer;
+}
+.pic3{
+	position: relative;
+	float: left;
+}
+#register_onpic2{
+   position: absolute;
+   top: 1160px;
+   left: 500px;
+}
+#getoverviewimg2{
+    position: relative;
+    top: -150px;
+    left: 130px;
+}
+#register_onpic2{
+	border-radius: 100px;
+	width: 200px;
+	background-color: rgba(255,255,255,0.9);
+	color: black;
+	font-family: cursive;
+	padding: 12px;
+	cursor: pointer;
+	border: 2px solid #e7e7e7;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 3px;
+	border-right-width: 3px;
+	transition-duration: 1s;
+    transition-timing-function: step-start;
+    font-size: 14px;
+    font-weight: bold;
+}
+#getoverviewimg2{
+	border-radius: 100px;
+	width: 200px;
+	background-color: rgba(255,255,255,0.9);
+	color: black;
+	font-family: cursive;
+	padding: 12px;
+	cursor: pointer;
+	border: 2px solid #e7e7e7;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 3px;
+	border-right-width: 3px;
+	transition-duration: 1s;
+    transition-timing-function: step-start;
+    font-size: 14px;
+    font-weight: bold;
+}
+/*#register_onpic2:hover{color: rgb(255,255,255);
+background-color: rgba(30,30,30,0);
+border-color: white;
+font-size: 80%;
+}
+#getoverviewimg2:hover{color: red;
+	font-weight: bold;
+background-color: rgba(30,30,30,0);
+font-size: 80%;
+border-color: white;
+}*/
+
+
+/*MAIN PAGE ENDS*/
+
+
+/*LOGIN PAGE*/
+#loginpgebody{margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+overflow: auto;
+}
+
+#signupbtn, #loginbtn{
+border-bottom-width: 2px;
+border-top-width: 5px;
+background-color: white;
+border-right-width: 2px;
+border-left-width: 5px;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 6px;
+padding-right: 6px;
+font-family: cursive;
+cursor: pointer;
+border-top-color: black;
+border-right-color: black;
+border-left-color: black;
+border-bottom-color: black;
+border-left-style: solid;
+border-top-style: solid;
+border-radius: 100px;
+}
+#signupbtn:hover{
+	border-top-color: rgba(0,0,0,0.8);
+	border-left-color: rgba(0,0,0,0.8);
+}
+#loginbtn:hover{
+	border-top-color: rgba(0,0,0,0.8);
+	border-left-color: rgba(0,0,0,0.8);
+}
+#loginspan{
+	position: fixed;
+	margin-top: 170px;
+   margin-left: 30px;
+   display: inline-block;
+}
+#signupspan{
+    position: fixed;
+	margin-left: 30px;
+	margin-top: 270px;
+	display: inline-block;
+}
+#theecologinpge{
+	color: rgba(0,0,0,0.8);
+	display: inline-block;
+	top: 15px;
+	left: 10px;
+	font-family: cursive;
+	position: fixed;
+	font-size: 20px;
+}
+#linktoecohome{
+	text-decoration: none;
+	letter-spacing: 3px;
+}
+
+
+
+#or{display: inline-block;
+	position: fixed;
+	margin-left: 30px; 
+	font-family: cursive;
+	margin-top: 240px; }
+
+
+#logindiv{
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	border-top-width: 5px;
+	border-left-width: 2px;
+	border-right-color: 5px;
+	border-bottom-width: 2px;
+	padding: 220px;
+	border-radius: 50px;
+    border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-left-color: rgba(255,255,255,0);
+	border-right-color: rgba(255,255,255,0);
+	border-top-color: rgba(255,255,255,0);
+	border-bottom-color: rgba(255,255,255,0);
+	background-color: white;
+}
+#spanlogindiv{
+	display: inline-block;
+	position: absolute;
+	top: 40px;
+	left: 150px;
+	font-size: 30px;
+	font-family: cursive;
+	letter-spacing: 2px;
+	cursor: default;
+	
+}
+#signupdiv{
+	position: fixed;
+	top: 100px;
+	left: 400px;
+	border-top-width: 5px;
+	border-left-width: 2px;
+	border-right-color: 5px;
+	border-bottom-width: 2px;
+	padding: 220px;
+	border-radius: 50px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	background-color: white;
+	display: none;
+}
+#spansignupdiv{
+	display: inline-block;
+	position: fixed;
+	top: 120px;
+	left: 550px;
+	font-size: 30px;
+	font-family: cursive;
+}
+#theeco-about{
+	display: inline-block;
+	position: absolute;
+	top: 598px;
+	left: 600px;
+	font-size: 12px;
+	font-family: cursive;
+	cursor: pointer;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#theeco-about:hover{
+	text-decoration: underline 2px;
+}
+#theeco-privacy-policy{
+	display: inline-block;
+	position: absolute;
+	top: 598px;
+	left: 660px;
+	font-size: 12px;
+	font-family: cursive;
+	cursor: pointer;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#theeco-privacy-policy:hover{
+	text-decoration: underline 2px;
+}
+#uname-login{
+	display: inline-block;
+	position: absolute;
+	top: 100px;
+	left: 35px;
+	font-size: 18px;
+	font-family: cursive;
+}
+#username-placeholder-login{
+	position: absolute;
+	top: 127px;
+	left: 30px;
+	padding: 10px;
+	padding-right: 10px;
+	outline-style: none;
+	border-radius: 100px;
+	font-size: 18px;
+	font-family: cursive;
+	width: 290px;
+}
+#username-placeholder-login:focus{
+	background-color: rgba(0,0,0);
+	border-color: black;
+	color: white;
+}
+#username-placeholder-login:invalid{
+	border-color: red;
+}
+#pword-login{
+	display: inline-block;
+	position: absolute;
+	top: 184px;
+	left: 35px;
+	font-size: 18px;
+	font-family: cursive;
+}
+#password-placeholder-login{
+	position: absolute;
+	top: 210px;
+	left: 30px;
+	padding: 10px;
+	padding-right: 10px;
+	border-radius: 100px;
+	outline-style: none;
+	font-size: 18px;
+	font-family: cursive;
+	width: 290px;
+}
+#password-placeholder-login:focus{
+	background-color: rgba(0,0,0);
+	border-color: black;
+	color: white;
+}
+#password-placeholder-login:invalid{
+	border-color: red;
+}
+#createaccount_ulinediv{
+	display: inline-block;
+	position: absolute;
+	top:360px;
+	left: 46px;
+}
+
+.uline1{
+	width: 120px;
+	height: 1px;
+	background-color: rgba(0,0,0,0.2);
+}
+#createaccount_ulinediv2{
+	display: inline-block;
+	position: absolute;
+	top: 360px;
+	left: 197px;
+}
+.uline2{
+	width: 120px;
+	height: 1px;
+	background-color: rgba(0,0,0,0.2);
+}
+#orbtwuline{
+	display: inline-block;
+	position: fixed;
+	top: 450px;
+	left: 670px;
+	color: black;
+	font-family: cursive;
+}
+#createnewaccount{
+	display: inline-block;
+	position: fixed;
+	top: 480px;
+	left: 530px;
+	padding: 8px;
+	width: 310px;
+	border-radius: 100px;
+	font-family: cursive;
+    border-color: rgba(0,0,0,0.2);
+    background-color: white;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+#createnewaccount:hover{
+	background-color: black;
+	color: white;
+}
+#submitbtn{
+	position: absolute;
+	top: 270px;
+	left: 30px;
+	padding: 8px;
+	width: 310px;
+	border-radius: 100px;
+	font-family: cursive;
+	cursor: pointer;
+	font-size: 16px;
+	letter-spacing: 4px;
+	background-color: rgb(20, 20, 20);
+	color: white;
+	border-color: rgba(20, 20, 20);
+}
+#submitbtn:hover{
+	background-color: rgba(0,0,0);
+	border-color: rgba(0, 0, 0);
+}
+#frgt_pswd{
+	display: inline-block;
+	position: absolute;
+	font-size: 12px;
+	top: 320px;
+	left: 35px;
+	font-family: cursive;
+	color: black;
+	cursor: pointer;
+}
+#frgt_pswd:hover{
+	font-weight: bold;
+
+}
+#infofrgtpswd{
+	display: inline-block;
+	position: absolute;
+	top: 315px;
+	left: 170px;
+	padding: 3px;
+}
+#infobtn{
+	border-radius: 100px;
+	font-family: "Times New Roman";
+	font-size: 15px;
+	width: 20px;
+	background-color: black;
+	color: white;
+}
+#infopara{
+	display: inline-block;
+	position: fixed;
+	display: none;
+	padding: 20px;
+	width: 250px;
+	background-color: black;
+	color: whitesmoke;
+	font-size: 18px;
+	top: 200px;
+	left: 540px;
+	font-family: cursive;
+	text-align: justify;
+	z-index: 1;
+}
+#infofrgtpswd:hover #infopara{
+	display: block;
+}
+#aboutlink{
+	text-decoration: none;
+	color: black;
+}
+/*LOGIN PAGE ENDS*/
+
+/*ABOUT US STARTS*/
+#aboutpagebody{
+	overflow-y: auto;
+	margin-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: auto;
+	height: 5000px;
+ }
+ ::-webkit-scrollbar{
+ 	width: 10px;
+ }
+ ::-webkit-scrollbar-track{
+ 	background: white;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	box-shadow: inset 0 0 5px grey;
+ }
+ ::-webkit-scrollbar-thumb{
+ 	background: rgba(200,200,200);
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+ }
+ ::-webkit-scrollbar-thumb:hover{
+ 	background: rgb(215, 215, 215);
+ }
+ #navbardiv{
+ 	position: fixed;
+ 	background-color: black;
+ 	z-index: 1;
+ }
+ #navbardiv{
+ 	height: 8%;
+ 	width: 100%;
+ 	top: 0;
+}
+#span1navbar{
+	display: inline-block;
+	position: fixed;
+	color: white;
+	top: 15px;
+	left: 10px;
+	font-family: cursive;
+	font-size: 15px;
+	letter-spacing: 3px;
+}
+#span2navbar{
+	display: inline-block;
+	position: fixed;
+	color: white;
+	top: 15px;
+	left: 480px;
+	font-family: cursive;
+	font-size: 15px;
+}
+#span3navbar{
+	display: inline-block;
+	position: fixed;
+	color: white;
+	top: 15px;
+    left: 600px;
+    font-family: cursive;
+	font-size: 15px;
+}
+#span4navbar{
+	display: inline-block;
+	position: fixed;
+	color: white;
+	top: 15px;
+    left: 720px;
+    font-family: cursive;
+	font-size: 15px;
+}
+#span5navbar{
+	display: inline-block;
+	position: fixed;
+	color: white;
+	top: 15px;
+	left: 840px;
+	font-family: cursive;
+	font-size: 15px;
+}
+#span6navbar{
+	display: inline-block;
+	position: fixed;
+	color: white;
+	top: 15px;
+	right: 55px;
+	font-family: cursive;
+	font-size: 15px;
+}
+.theecogallheading{
+	position: absolute;
+	display: inline-block;
+	top: 15%;
+	left: 75%;
+	color: black;
+	font-family: cursive;
+    text-decoration: underline;
+
+}
+.gallery{
+	position: absolute;
+	display: inline;
+	background-color: white;
+	height: 75%;
+	width: 25%;
+	overflow-y: auto;
+	
+	
+	border-color: black;
+	border-radius: 10px;
+	border-width: 2px;
+	top: 20%;
+	left: 70%;
+}
+
+.gallery::-webkit-scrollbar{
+	width: 10px;
+	/*display: none;*/
+}
+.gallery::-webkit-scrollbar-track{
+	background: white;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	box-shadow: inset 0 0 5px grey;
+}
+.gallery::-webkit-scrollbar-thumb{
+	background: rgba(200,200,200);
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.gallery::-webkit-scrollbar-thumb:hover{
+ 	background: rgb(215, 215, 215);
+ }
+.image1{
+	float: left;
+	width: 100%;
+}
+.img1gallery{
+	width: 100%;
+	height: auto;
+}
+.desc{
+	padding: 20px;
+	text-align: center;
+	font-family: cursive;
+	font-size: 15px;
+}
+.image2{
+	float: left;
+	width: 100%;
+	border-bottom-style: solid;
+	border-bottom-color: grey;
+	border-bottom-width: 1px;
+}
+.img2gallery{
+	width: 100%;
+	height: 300px;
+}
+.desc2{
+	padding: 15px;
+	text-align: center;
+	font-family: cursive;
+	font-size: 15px;
+}
+#textareadiv{
+	display: inline;
+	position: absolute;
+	overflow-y: auto;
+	background-color: white;
+	height: 75%;
+	width: 50%;
+	top: 20%;
+	left: 13%;
+	/*border-right-style: solid;*/
+	border-width: 1px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-color: black;
+}
+#textareadiv::-webkit-scrollbar {
+	width: 10px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+#textareadiv::-webkit-scrollbar-track{
+	background: white;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	box-shadow: inset 0 0 5px grey;
+}
+#textareadiv::-webkit-scrollbar-thumb{
+	background: rgba(200,200,200);
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+#textareadiv::-webkit-scrollbar-thumb:hover{
+ 	background: rgb(215, 215, 215);
+ }
+ .textareahead{
+ 	display: inline-block;
+ 	position: absolute;
+ 	font-family: cursive;
+ 	font-size: 30px;
+ 	letter-spacing: 4px;
+ 	font-weight: bolder;
+ }
+ .abtusmaintxt{
+ 	display: inline-block;
+ 	position: relative;
+ 	font-family: cursive;
+ 	font-size: 20px;
+ 	top: 20%;
+ }
+
+
+/*.spandiv{
+	display: inline-block;
+	position: relative;
+	top: 3%;
+	left: 2%;
+}*/
+/*ABOUT US ENDS*/
+
+/*SIGNUP PAGE STARTS*/
+#bodysignuppage{
+	margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+overflow: auto;
+}
+#theecosignuppage{
+	color: rgba(0,0,0,0.8);
+	display: inline-block;
+	top: 15px;
+	left: 10px;
+	font-family: cursive;
+	position: fixed;
+	font-size: 20px;
+}
+#linktoecohome{
+	text-decoration: none;
+	letter-spacing: 3px;
+}
+#signupdiv{
+	display: inline-block;
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	border-top-width: 5px;
+	border-left-width: 2px;
+	border-right-color: 5px;
+	border-bottom-width: 2px;
+	padding: 220px;
+	border-radius: 50px;
+    border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-left-color: rgba(0,0,0);
+	border-right-color: rgba(0,0,0);
+	border-top-color: rgba(0,0,0);
+	border-bottom-color: rgba(0,0,0);
+	background-color: white;
+}
+#spansignupdiv{
+	display: inline-block;
+	position: absolute;
+	top: 40px;
+	left: 150px;
+	font-size: 30px;
+	font-family: cursive;
+}
+#emailidsignup{
+	position: absolute;
+	top: 110px;
+	left: 35px;
+	font-family: cursive;
+	font-size: 
+}
+#emailid_Placeholder_Signup{
+	position: absolute;
+	top: 137px;
+	left: 30px;
+	padding: 10px;
+	padding-right: 10px;
+	outline-style: none;
+	border-radius: 100px;
+	font-size: 18px;
+	font-family: cursive;
+	width: 290px;
+}
+#emailid_Placeholder_Signup:focus{
+	background-color: rgba(0,0,0);
+	border-color: black;
+	color: white;}
+#pswdsignup{
+	position: absolute;
+	top: 190px;
+	left: 35px;
+	font-family: cursive;
+	font-size: 
+}
+#pswd_Placeholder_Signup{
+	position: absolute;
+	top: 217px;
+	left: 30px;
+	padding: 10px;
+	padding-right: 10px;
+	outline-style: none;
+	border-radius: 100px;
+	font-size: 18px;
+	font-family: cursive;
+	width: 290px;
+}	
+#pswd_Placeholder_Signup:focus{
+	background-color: rgba(0,0,0);
+	border-color: black;
+	color: white;}
+
+/*SIGNUP PAGE ENDS*/
+
+
+
+
+
+
+
+
+
